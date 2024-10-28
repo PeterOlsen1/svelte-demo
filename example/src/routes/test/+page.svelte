@@ -4,6 +4,8 @@
     function increment() {
         count += 1;
     }
+
+    import Rectangle from "./rectangle.svelte";
 </script>
 
 <div>
@@ -18,4 +20,9 @@
     <button on:click={increment}>
         Click me!
     </button>
+
+
+    <div style="width: {count}px; height: {count}px; background-color: black; margin: 1.5em;"></div>
+
+    <Rectangle></Rectangle>
 </div>
