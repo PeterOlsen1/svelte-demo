@@ -24,9 +24,8 @@
         let &#123; input &#125; = $props(); <br>
     </code>
     <p>
-        Which allows me to use 'input' as a variable.
+        Therefore, when I use 'input' as a variable, I can get something like this:
     </p>
-    <br>
     <br>
     <Component input="hello!"/>
 </div>

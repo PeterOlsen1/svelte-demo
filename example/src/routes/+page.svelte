@@ -7,6 +7,6 @@
         of Svelte's best features into one webapp.
     </p>
     <p>
-        Check out the link <a href="/runes/effect">here</a> to start learning!
+        Check out the link <a href="/runes">here</a> to start learning!
     </p>
 </div>
