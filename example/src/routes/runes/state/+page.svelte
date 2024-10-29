@@ -17,7 +17,7 @@
     <div>
         Count = {count}
     </div>
-    <button on:click={increment}>
+    <button onclick={increment}>
         Click me!
     </button>
 

@@ -1,0 +1,17 @@
+.text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+code {
+    background-color: rgba(200, 200, 200, 0.2);
+    border-radius: 10px;
+    width: 40%;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
