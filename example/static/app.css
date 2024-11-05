@@ -1,16 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 .text-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 pre {
     display: flex;
     justify-content: center;
-    width: 50%;
+    /* width: 50%; */
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -33,4 +38,9 @@ input {
     width: 10em;
     margin-right: auto;
     margin-left: auto;
+}
+
+body, html {
+    margin: 0;
+    font-family: "PT Sans", sans-serif;
 }
