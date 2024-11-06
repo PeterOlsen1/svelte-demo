@@ -18,4 +18,5 @@
     <HeaderLink ref="/routing">Routing</HeaderLink>
     <HeaderLink ref="/runes">Runes</HeaderLink>
     <HeaderLink ref="/components">Components</HeaderLink>
+    <HeaderLink ref="/templates">Templates</HeaderLink>
 </nav>
