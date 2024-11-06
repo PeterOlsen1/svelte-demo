@@ -4,6 +4,10 @@
 	let message = $state('hello');
 </script>
 
+<svelte:head>
+    <title>Bindable</title>
+</svelte:head>
+
 <div class="text-container">
     <h1>
         $bindable Rune

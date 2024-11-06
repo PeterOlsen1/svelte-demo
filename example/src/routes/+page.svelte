@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Svelte Demo</title>
+</svelte:head>
+
 <div class="text-container">
     <h1>
         Welcome to Mullet Bullet's Interactive Svelte Documentation!

@@ -11,6 +11,10 @@
     }
 </style>
 
+<svelte:head>
+    <title>Derived</title>
+</svelte:head>
+
 <div class="text-container">
     <h1>
         $derived Rune

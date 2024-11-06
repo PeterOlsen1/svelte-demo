@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Runes</title>
+</svelte:head>
+
 <div class="text-container">
     <h1>
         Svelte Runes
@@ -6,11 +10,10 @@
         Svelte runes are a simple way to create reactive webpage. They update the document when certain conditions are met.
     </p>
     <p>
-        Here are some example runes below. Click on a page to learn more!
+        Runes were just recently fully introduced with Svelte 5. They really empower the developer experience,
+        and improve greatly on the old $ Svelte 4 syntax.
     </p>
     <p>
-        <a href="/runes/state">$state</a> | <a href="/runes/derived">$derived</a> |
-        <a href="/runes/props">$props</a> | <a href="/runes/effect">$effect</a> | <a href="/runes/bindable">$bindable</a>
-        | <a href="/runes/inspect">$inspect</a>
+        Click on a rune above to learn more!
     </p>
 </div>

@@ -33,7 +33,7 @@
             Update Height
         </button>
     </div>
-    <br><br>
+    <br>
     <div style="width: {rectangle.width}px; height: {rectangle.height}px; background-color: black">
         
     </div>

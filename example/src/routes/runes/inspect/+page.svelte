@@ -12,6 +12,11 @@
         margin-left: auto;
     }
 </style>
+
+<svelte:head>
+    <title>Inspect</title>
+</svelte:head>
+
 <div class="text-container">
     <h1>
         $inspect Rune

@@ -1,9 +1,22 @@
 <script>
-// @ts-nocheck
-
+    // @ts-nocheck
+    // import { page } from '$app/stores';
     let { ref } = $props();
+
+    // let route = $state($page.route.id);
+
+    // let onPage = $derived.by(() => {
+    //     if (ref == '/') {
+    //         return route == '/';
+    //     }
+    //     else {
+    //         return route.includes(ref);
+    //     }
+    // });
+
     let text;
     let underline;
+    let parentContainer;
 
     function hover() {
         underline.style.width = '100%';
@@ -14,6 +27,13 @@
         underline.style.width = '0%';
         text.style.top = '0px';
     }
+
+    // // wrap this in $effect so we can avoid race conditions
+    // $effect(() => {
+    //     if (onPage) {
+    //         parentContainer.style.backgroundColor = 'rgba(200, 200, 200, 0.2)';
+    //     }
+    // });
 </script>
 
 
@@ -50,7 +70,7 @@
 </style>
 
 
-<a href="{ref}" onmouseenter={hover} onmouseleave={stopHover}>
+<a href="{ref}" onmouseenter={hover} onmouseleave={stopHover} bind:this={parentContainer}>
     <span class="link-text" bind:this={text}>
         <slot />
         <br>

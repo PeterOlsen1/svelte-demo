@@ -4,6 +4,10 @@
     let input = $state('hello!');
 </script>
 
+<svelte:head>
+    <title>Props</title>
+</svelte:head>
+
 <div class="text-container">
     <h1>
         $props Rune

@@ -23,6 +23,10 @@
     }
 </style>
 
+<svelte:head>
+    <title>Effect</title>
+</svelte:head>
+
 <div class='text-container'>
     <h1>
         $effect Rune

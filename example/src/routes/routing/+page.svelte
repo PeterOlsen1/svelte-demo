@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Routing</title>
+</svelte:head>
+
 <div class="text-container">
     <h1>Svelte Routing</h1>
     <p>

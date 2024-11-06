@@ -4,6 +4,9 @@
     let page_name = $page.params.dynamic;
 </script>
 
+<svelte:head>
+    <title>Page: {page_name}</title>
+</svelte:head>
 
 <div class="text-container">
     <p>
