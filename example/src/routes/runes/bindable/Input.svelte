@@ -1,8 +1,8 @@
 <script>
-	let { value = $bindable(), ...props } = $props();
+	let { value = $bindable() } = $props();
 </script>
 
-<input bind:value={value} {...props} />
+<input bind:value={value} />
 
 <style>
 	input {

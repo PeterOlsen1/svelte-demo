@@ -19,6 +19,7 @@
         In this case, the input field is a component, and it uses the $bindable rune to show the outward transfer of data.
         <br>
         The text where the input content is mirrored is not a part of the component.
+        <br>
     </p>
     <Input bind:value={message} />
     <p>{message}</p>
