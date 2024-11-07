@@ -22,4 +22,11 @@
         frontend success. <em>SvelteKit</em> on the other hand, is a metaframework that deals with
         the deployment, adminstration, etc. of svelte projects.
     </p>
+    <h2>Why Svelte?</h2>
+    <p>
+        Svelte is a framework that greatly improves the developer experience, with simple build in functions to ease DOM manipulation. Svelte is compiled into optimized JavaScript which updates the DOM directly, instead of some virtual DOM.
+        This means that Svelte apps have massive performance gains over frameworks with a virtual DOM.
+        <br><br>
+        Svelte files also allow for developers to include CSS, JS, and HTML all in one file, with out of the box for TS, SCSS, and SASS, for those who are a little more ambitious.
+    </p>
 </div>
