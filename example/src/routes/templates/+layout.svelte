@@ -5,6 +5,7 @@
 
 <MiniHeader>
     <MiniHeaderLink ref="/templates/control-flow">Control Flow</MiniHeaderLink>
+    <MiniHeaderLink ref="/templates/snippets">Snippets</MiniHeaderLink>
 </MiniHeader>
 
 <main>

@@ -13,22 +13,20 @@
 }
 
 pre {
-    display: flex;
-    justify-content: center;
     /* width: 50%; */
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    text-align: left;
 }
-/* code {
-    background-color: rgba(200, 200, 200, 0.2);
+code {
     border-radius: 10px;
     width: 40%;
     text-align: left;
     margin-right: auto;
     margin-left: auto;
     padding: 10px;
-} */
+}
 
 a {
     color: black;
@@ -43,4 +41,11 @@ input {
 body, html {
     margin: 0;
     font-family: "PT Sans", sans-serif;
+}
+
+.col-flex-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
 }
