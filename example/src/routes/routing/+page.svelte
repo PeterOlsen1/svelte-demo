@@ -36,4 +36,53 @@
         <a href="https://github.com/PeterOlsen1/svelte-demo/tree/main/example/src/routes">Github</a> to
         see it in action.
     </p>
+
+    <h2>
+        Special Pages
+    </h2>
+    <p>
+        These special pages are more on the SvelteKit side of things, since they deal with more of the metaframework aspects, and not so much the user interface aspects.
+        There are a few more special pages than just +page.svelte and +layout.svelte such as:
+    </p>
+    <div style="text-align: left; line-height: 1.5em">
+        <ul>
+            <li>
+                +error.svelte
+                <ul>
+                    <li>
+                        This page allows us to create a custom page for when errors inevitably occur.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                +page.(js/ts)
+                <ul>
+                    <li>This file is typically where data is loaded and passed into the main +page.svelte.</li>
+                    <li>The same also exists for +layout.(js/ts), with the same functionality.</li>
+                </ul>
+            </li>
+            <li>
+                +(layout/page).server.(js/ts)
+                <ul>
+                    <li>
+                        Load data for some page or layout but only on the server side.
+                    </li>
+                    <li>
+                        This differs from +page.js since these operations will run on the serverside, keeping them secret from the client.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                +server.(js/ts)
+                <ul>
+                    <li>
+                        This file is used to define a server endpoint within a route.
+                    </li>
+                    <li>
+                        If you wanted to make some sort of API with Svelte, this would be the place to do it.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 </div>

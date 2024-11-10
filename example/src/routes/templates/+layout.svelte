@@ -8,6 +8,7 @@
 <MiniHeader>
     <MiniHeaderLink ref="/templates/control-flow">Control Flow</MiniHeaderLink>
     <MiniHeaderLink ref="/templates/snippets">Snippets</MiniHeaderLink>
+    <MiniHeaderLink ref="/templates/directives">Directives</MiniHeaderLink>
 </MiniHeader>
 
 <main>

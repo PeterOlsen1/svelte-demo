@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Snippets</title>
+</svelte:head>
+
 <script>
     import ContentBox from './ContentBox.svelte';
     let input = $state("");
@@ -31,7 +35,7 @@
         (given that recursion is handled properly)
         <br><br>
         For example, my snippet below only uses one variable, name, but
-        it references a reative variables (that you can change) bound to
+        it references a relative variables (that you can change) bound to
         this <input type="text" bind:value={input} placeholder="Enter some text here"> input box.
         <br>
         If I have some code as follows:

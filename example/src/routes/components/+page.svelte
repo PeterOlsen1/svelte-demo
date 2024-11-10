@@ -7,7 +7,8 @@
         Components
     </h1>
     <p>
-        Svelte is a component based framework, which means its component system is <b>kick ass.</b>
+        Svelte is a component based framework, which means its component system is <b>kick ass.</b> There's not much to say here since components in Svelte work mostly the same
+        as in other libraries, but the rest of Svelte makes working with components an enjoyable experience.
     </p>
     <h3>
         What are the advantages of svelte components?

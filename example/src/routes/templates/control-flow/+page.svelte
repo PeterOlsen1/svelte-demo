@@ -55,7 +55,7 @@
         Control Flow
     </h1>
     <p>
-        Templating syntax in Svelt isn't hard to pick up after experience with Jinja.
+        Templating syntax in Svelte isn't hard to pick up after experience with Jinja.
         <br><br>
         These concepts are more well demonstrated when viewing the source code, but there will be some examples included.
     </p>
