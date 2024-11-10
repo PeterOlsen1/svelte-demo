@@ -1,7 +1,7 @@
 <script>
     // @ts-nocheck
     // import { page } from '$app/stores';
-    let { ref } = $props();
+    let { ref, children } = $props();
 
     // let route = $state($page.route.id);
 
@@ -72,7 +72,7 @@
 
 <a href="{ref}" onmouseenter={hover} onmouseleave={stopHover} bind:this={parentContainer}>
     <span class="link-text" bind:this={text}>
-        <slot />
+        {@render children()}
         <br>
         <span class="link-underline" bind:this={underline}></span>
     </span>

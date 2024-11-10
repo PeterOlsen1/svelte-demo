@@ -1,4 +1,5 @@
 <script>
+    import ContentBox from './ContentBox.svelte';
     let input = $state("");
 </script>
 
@@ -57,4 +58,16 @@
         {@render name("Seby")}
         {@render name("Derrick")}
     </div>    
+
+    <p>
+        Snippets are also the method of choice in Svelte 5 for passing content into components.
+        Say I have some arbitrary component, 'ContentBox' where I want to pass in some HTML.
+        <br>
+        The inner HTML of the snippet can easily be accessed by rendering the 'children' prop.
+    </p>
+    <ContentBox>
+        <p>
+            This is me passing values into this ContentBox
+        </p>
+    </ContentBox>
 </div>

@@ -1,7 +1,7 @@
 <script>
 // @ts-nocheck
 
-    let { ref } = $props();
+    let { ref, children } = $props();
     let text;
     let underline;
 
@@ -52,7 +52,7 @@
 
 <a href="{ref}" onmouseenter={hover} onmouseleave={stopHover}>
     <span class="link-text" bind:this={text}>
-        <slot />
+        {@render children()}
         <br>
         <span class="link-underline" bind:this={underline}></span>
     </span>

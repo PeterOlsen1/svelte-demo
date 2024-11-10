@@ -1,6 +1,8 @@
 <script>
     import MiniHeader from "$lib/components/MiniHeader.svelte";
     import MiniHeaderLink from "$lib/components/MiniHeaderLink.svelte";
+
+    let { children } = $props();
 </script>
 
 <MiniHeader>
@@ -9,5 +11,5 @@
 </MiniHeader>
 
 <main>
-    <slot />
+    {@render children()}
 </main>

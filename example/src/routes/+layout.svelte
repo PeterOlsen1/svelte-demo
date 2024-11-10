@@ -1,9 +1,12 @@
 <script>
     import Header from "$lib/components/Header.svelte";
+
+    let { children } = $props();
 </script>
 
 <Header></Header>
 
 <main>
-    <slot></slot>
+    {@render children()}
 </main>
+<br><br>

@@ -1,6 +1,7 @@
 <script>
     import HeaderLink from "./HeaderLink.svelte";
 
+    let { children } = $props();
 </script>
 
 <style>
@@ -15,5 +16,5 @@
 </style>
 
 <nav>
-    <slot />
+    {@render children()}
 </nav>

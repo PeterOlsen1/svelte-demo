@@ -1,7 +1,7 @@
 <script>
     let count = $state(0);
     let items = [
-        {class: 'csci5117', instructor: 'Daniel Kluever'},
+        {class: 'csci5117', instructor: 'Daniel Kluver'},
         {class: 'csci4131', instructor: 'Dan Challou'},
         {class: 'csci4511W', instructor: 'Andy Exley'},
         {class: 'csci3081W', instructor: 'Mattia Fazzini'},

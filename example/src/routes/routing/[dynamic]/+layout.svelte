@@ -1,3 +1,7 @@
+<script>
+    let { children } = $props();
+</script>
+
 <div class="text-container">
     <h1>
         Dynamic Route
@@ -7,5 +11,5 @@
         show up on the screen, but you will still be on this page!
     </p>
 
-    <slot></slot>
+    {@render children()}
 </div>
