@@ -1,19 +1,9 @@
 <script>
-    import ListItem from "$lib/components/ListItem.svelte";
-    let text = $state('')
-    $inspect(text)
-    let id = 4;
+    //Import component here
+    
+    //Declare variables here
 
-    let todos = $state([{
-        id: 1,
-        text: 'Buy milk'
-    }, {
-        id: 2,
-        text: 'Buy eggs'
-    }, {
-        id: 3,
-        text: 'Buy bread'
-    }]);
+    //add list of TODOs here
 </script>
 
 <style>
@@ -57,15 +47,12 @@
 
     <br><br>
     <div class="todo-container">
-        {#each todos as todo}
-            <ListItem todo={todo}></ListItem>
-        {/each}
+        <!-- Do the for each loop in here -->
     </div>
 
     <br><br>
 
     <div>
-        <input type="text" bind:value={text}>
-        <button onclick={() => {todos = [...todos, {id, text}]; id++}}>Add</button>
+        <!-- Logic for input and adding TODO here! -->
     </div>
 </div>
