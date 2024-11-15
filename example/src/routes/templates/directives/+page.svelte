@@ -48,7 +48,7 @@
         <div transition:fly={{y: -500}}>Hello!</div>
     {/if}
     <h2>
-        :in + :out
+        in: + out:
     </h2>
     <p>
         These will operate the same way as transition:, but only happen in one direction. That way, if you don't want an element repeat the same transition in both ways, you don't need to!

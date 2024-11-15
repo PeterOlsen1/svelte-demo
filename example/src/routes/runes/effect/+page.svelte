@@ -1,6 +1,6 @@
 <script>
 	let size = $state(50);
-	let color = $state('#ff3e00');
+	let color = $state('#ff0000');
 
 	let canvas;
 

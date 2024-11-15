@@ -11,7 +11,7 @@
         of Svelte's best features into one webapp.
     </p>
     <p>
-        Wanna see our code? Check out the <a href="https://github.com/PeterOlsen1/svelte-demo" target="_blank">Github repo</a>
+        Wanna see our code? Check out the <a href="https://github.com/PeterOlsen1/svelte-demo/tree/main/example" target="_blank">Github repo</a>
         to explore the source code!
     </p>
 
